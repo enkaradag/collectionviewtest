@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cz="clr-namespace:FunctionZero.Maui.Controls;assembly=FunctionZero.Maui.Controls"
+             xmlns:me="clr-namespace:CollectionViewTest"
+             x:Class="CollectionViewTest.MainPage">
+
+    <StackLayout Padding="10" Spacing="10">
+        <Button x:Name="btn_fill" Text="Fill With 1000 Rows of Data" Clicked="btn_fill_Clicked"/>
+        <CollectionView x:Name="view" HeightRequest="500" SelectionMode="Multiple"/>
+
+    </StackLayout>
+
+</ContentPage>
